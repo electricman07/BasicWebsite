@@ -3,9 +3,20 @@
   src: url("BlueDino.otf");
 }
 
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   background: whitesmoke;
   font-family: BlueDino, sans-serif;
+  max-width: 1200px;
 }
 
 h1 {
