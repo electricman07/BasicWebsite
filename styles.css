@@ -30,7 +30,24 @@ h1 {
 .sub-heading {
   font-size: 3rem;
   text-align: center;
-
   font-weight: 300;
   color: #f6911c;
+  margin-left: 2rem;
+  padding-bottom: 4rem;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  width: 275px;
+  height: auto;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
 }
