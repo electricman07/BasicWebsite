@@ -7,3 +7,19 @@ body {
   background: whitesmoke;
   font-family: BlueDino, sans-serif;
 }
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 400;
+  color: #647abc;
+}
+
+.sub-heading {
+  font-size: 3rem;
+  text-align: center;
+
+  font-weight: 300;
+  color: #f6911c;
+}
