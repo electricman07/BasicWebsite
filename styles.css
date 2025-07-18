@@ -14,8 +14,8 @@ html {
 }
 
 body {
-  background: whitesmoke;
-  background-image: url(backgroundWaves.png);
+  background: white;
+  background-image: url(backgroundWavesAlt.png);
   background-size: contain;
   background-repeat: no-repeat;
   font-family: BlueDino, sans-serif;
