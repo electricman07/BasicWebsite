@@ -114,6 +114,12 @@ h1,
   height: auto;
 }
 
+/* About Section */
+.about-section {
+  display: flex;
+  
+}
+
 @media screen and (max-width: 600px) {
   body {
     padding: 0;
