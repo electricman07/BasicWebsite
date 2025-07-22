@@ -78,7 +78,6 @@ h1 {
   margin-top: 20px;
   font-weight: 400;
   color: #647abc;
-  font-family: BlueDino, sans-serif;
   /* border: 1px solid black; */
   position: absolute;
   right: 55px;
@@ -98,10 +97,14 @@ h1 {
   font-size: 3rem;
   text-align: center;
   font-weight: 300;
-  font-family: BlueDino, sans-serif;
   color: #f6911c;
   margin-left: 2rem;
   padding-bottom: 4rem;
+}
+
+h1,
+.sub-heading {
+  font-family: "BlueDino", cursive;
 }
 
 .img-container {
