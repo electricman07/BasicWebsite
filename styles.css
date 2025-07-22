@@ -20,7 +20,7 @@ body {
   background-repeat: no-repeat;
   max-width: 1200px;
   /* border: 1px solid black; */
-  padding: 0rem 0 5rem 0rem;
+  /* padding: 0rem 0 5rem 0rem; */
   margin: 0 auto;
   width: 100%;
 }
@@ -62,6 +62,7 @@ h2 {
 /* Main section */
 main {
   width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -158,6 +159,16 @@ h1,
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  position: absolute;
+  /* bottom: 0; */
+  left: 0;
 }
 
 @media screen and (max-width: 750px) {
