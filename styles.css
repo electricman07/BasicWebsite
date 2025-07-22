@@ -20,8 +20,9 @@ body {
   background-repeat: no-repeat;
   max-width: 1200px;
   /* border: 1px solid black; */
-  padding: 0rem 0 5rem 5rem;
+  padding: 0rem 0 5rem 0rem;
   margin: 0 auto;
+  width: 100%;
 }
 
 /* Navigation */
@@ -50,13 +51,11 @@ body {
 }
 
 main {
-  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   /* border: 1px solid green; */
-  padding-left: 5rem;
 }
 
 .blank {
@@ -114,3 +113,39 @@ h1,
   width: 100%;
   height: auto;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    font-size: 3rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  .blank {
+    height: 10vh;
+  }
+
+  h1 {
+    font-size: 3rem;
+    position: static;
+    margin-top: 20px;
+  }
+
+  .logo-container {
+    flex-direction: column;
+    align-items: center;
+  }
