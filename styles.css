@@ -129,6 +129,13 @@ h1,
   display: flex;
 }
 
+.about-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+
 .about-content-container {
   padding: 1rem;
   max-width: 600px;
@@ -143,6 +150,14 @@ h1,
   padding: 1rem;
   /* margin: 2rem; */
   border-radius: 6px;
+}
+
+/* Sections */
+.section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (max-width: 600px) {
