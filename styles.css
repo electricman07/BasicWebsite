@@ -250,19 +250,18 @@ h1,
   cursor: pointer;
 }
 
-img {
-  width: 45px;
-  height: 45px;
+.icon {
+  font-size: 2rem;
   filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #0006);
   transition: 0.2s;
   user-select: none;
 }
 
-img:hover {
+.icon:hover {
   transform: scale(1.1, 1.1);
 }
 
-img:active {
+.icon:active {
   transform: scale(1.1, 1.1);
   filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #222) sepia(0.3);
 }
