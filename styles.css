@@ -2,11 +2,15 @@
   font-family: BlueDino;
   src: url("BlueDino.otf");
 }
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 
 html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
@@ -14,7 +18,7 @@ body {
   background-image: url(backgroundWavesAlt.png);
   background-size: contain;
   background-repeat: no-repeat;
-  font-family: BlueDino, sans-serif;
+
   max-width: 1200px;
   /* border: 1px solid black; */
   padding: 0rem 0 5rem 5rem;
@@ -74,6 +78,7 @@ h1 {
   margin-top: 20px;
   font-weight: 400;
   color: #647abc;
+  font-family: BlueDino, sans-serif;
   /* border: 1px solid black; */
   position: absolute;
   right: 55px;
@@ -93,6 +98,7 @@ h1 {
   font-size: 3rem;
   text-align: center;
   font-weight: 300;
+  font-family: BlueDino, sans-serif;
   color: #f6911c;
   margin-left: 2rem;
   padding-bottom: 4rem;
