@@ -59,6 +59,7 @@ h2 {
   margin: 0 1rem;
 }
 
+/* Main section */
 main {
   width: 100%;
   display: flex;
@@ -126,7 +127,22 @@ h1,
 /* About Section */
 .about-section {
   display: flex;
+}
 
+.about-content-container {
+  padding: 1rem;
+  max-width: 600px;
+}
+
+.about-content-container h3, .about-content-container p {
+  padding: 0 1rem ;
+}
+
+.about-content-container .about-paragraph {
+  background-color: #fde4c4;
+  padding: 1rem;
+  /* margin: 2rem; */
+  border-radius: 6px;
 }
 
 @media screen and (max-width: 600px) {
@@ -167,6 +183,7 @@ h1,
 /* About Section */
 .about-section {
   flex-direction: column;
+  align-items: center;
 }
 
 .about-content-container {
