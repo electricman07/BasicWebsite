@@ -18,7 +18,6 @@ body {
   background-image: url(backgroundWavesAlt.png);
   background-size: contain;
   background-repeat: no-repeat;
-
   max-width: 1200px;
   /* border: 1px solid black; */
   padding: 0rem 0 5rem 5rem;
@@ -51,11 +50,12 @@ body {
 }
 
 main {
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   /* border: 1px solid green; */
   padding-left: 5rem;
   /* margin: 2rem; */
