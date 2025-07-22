@@ -25,6 +25,15 @@ body {
   width: 100%;
 }
 
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
+  color: #f6911c;
+  
+  padding-bottom: 4rem;
+}
+
 /* Navigation */
 .nav-bar {
   width: 100%;
@@ -117,7 +126,7 @@ h1,
 /* About Section */
 .about-section {
   display: flex;
-  
+
 }
 
 @media screen and (max-width: 600px) {
@@ -155,3 +164,11 @@ h1,
     flex-direction: column;
     align-items: center;
   }
+/* About Section */
+.about-section {
+  flex-direction: column;
+}
+
+.about-content-container {
+  padding: 1rem;
+}
