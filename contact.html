@@ -48,18 +48,22 @@
                 <div class="contact-form-wrapper">
                 <form>
                     <div class="form-item">
-                    <input type="text" name="sender" required>
-                    <label>Name:</label>
+                    <input type="text" name="sender" id="name" required>
+                    <label for="name">Name:</label>
                     </div>
                     <div class="form-item">
-                    <input type="text" name="email" required>
-                    <label>Email:</label>
+                    <input type="text" name="email" id="email" required>
+                    <label for="email">Email:</label>
                     </div>
                     <div class="form-item">
-                    <textarea class="" name="message" required></textarea>
-                    <label>Message:</label>
+                    <input type="tel" name="phone" id="phone" required>
+                    <label for="phone">Phone:</label>
                     </div>
-                    <button class="submit-btn">Send</button>  
+                    <div class="form-item">
+                    <textarea class="" name="message" id="message" required></textarea>
+                    <label for="message">Message:</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Send</button>  
                 </form>
                 </div>
             </div>
