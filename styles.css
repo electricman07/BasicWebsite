@@ -231,6 +231,9 @@ h1,
   }
 }
 
+.contact-links {
+  border-radius: 5px;
+}
 .contact-box h2 {
   color: #f6911c;
   font-size: clamp(30px, 6vw, 60px);
@@ -372,6 +375,12 @@ textarea:valid + label {
   h2 {
     font-size: clamp(40px, 10vw, 60px);
   }
+  .contact-box {
+    width: clamp(100px, 90%, 1000px);
+    margin: 80px 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -433,8 +442,7 @@ textarea:valid + label {
     width: 95%;
     margin: 8% 5%;
   }
-}
-@media only screen and (max-width: 400px) {
+
   h2 {
     font-size: clamp(30px, 12vw, 60px);
   }
