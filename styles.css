@@ -237,6 +237,20 @@ h1,
   text-align: center;
   transform: scale(0.95, 1);
 }
+.contact-info {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info div {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
 
 .links {
   display: flex;
