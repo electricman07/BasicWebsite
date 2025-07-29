@@ -283,12 +283,12 @@ h1,
 
 .link a {
   text-decoration: none;
-  color: #f6911c;
+  color: #4c50f8;
 }
 
 .icon {
   font-size: 2rem;
-  filter: hue-rotate(199deg) drop-shadow(2px 4px 4px #0006);
+  filter: drop-shadow(2px 4px 4px #0006);
   transition: 0.2s;
   user-select: none;
 }
