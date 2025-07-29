@@ -281,9 +281,14 @@ h1,
   cursor: pointer;
 }
 
+.link a {
+  text-decoration: none;
+  color: #f6911c;
+}
+
 .icon {
   font-size: 2rem;
-  filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #0006);
+  filter: hue-rotate(199deg) drop-shadow(2px 4px 4px #0006);
   transition: 0.2s;
   user-select: none;
 }
