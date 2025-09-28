@@ -12,20 +12,18 @@ html {
   font-weight: 400;
   font-style: normal;
   width: 100%;
-  height: 200%;
+  height: 100%;
 }
 
 body {
-  background: white;
-  background-image: url(backgroundWavesAlt.png);
-  background-size: contain;
+  background: #f5f5f5;
+  background-image: url(BackgroundWavesTransparentSmall2.png);
+  background-size: auto;
   background-repeat: no-repeat;
   max-width: 1200px;
-  /* border: 1px solid black; */
-  /* padding: 0rem 0 5rem 0rem; */
   margin: 0 auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   position: relative;
 }
 
@@ -66,7 +64,7 @@ h2 {
 /* Main section */
 main {
   width: 100%;
-  height: 100vh;
+  /* height: 100%; */
   display: flex;
   flex-direction: column;
   align-items: center;
