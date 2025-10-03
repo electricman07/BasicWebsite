@@ -438,8 +438,11 @@ textarea:valid + label {
   .about-content-container {
     padding: 1rem;
   }
+  .footer {
+    position: relative;
+  }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 350px) {
   .contact-box {
     width: 95%;
     margin: 8% 5%;
@@ -456,5 +459,8 @@ textarea:valid + label {
   img {
     width: 38px;
     height: 38px;
+  }
+  .footer {
+    position: inherit;
   }
 }
